@@ -1,0 +1,13 @@
+<h1> Editing the post that you want to edit since 2015 </h1>
+  <%= form_for @post do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+
+    <%= f.label :body %>
+    <%= f.text_field :body %>
+
+  <%= f.submit %>
+<% end %>

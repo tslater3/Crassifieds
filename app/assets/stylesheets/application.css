@@ -1,0 +1,76 @@
+
+
+
+
+
+/*
+Grid
+*/
+
+
+.top-container-home {
+margin-top: 300px;
+}
+
+.top-container {
+  margin-top: 150px;
+}
+.middle-container {
+
+}
+
+.bottom-container {}
+
+/*
+Styles
+*/
+
+.text {
+
+}
+body {
+  background-color: rgb(246, 232, 181);
+  font-family: 'Comic Sans MS'
+}
+
+.links {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px
+}
+.links-home {
+  text-align: center;
+  color: rgb(208, 45, 4);
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px
+}
+.links a:hover {
+  color: gray;
+}
+.links a {
+  color: rgb(48, 120, 214);
+}
+
+.headline {
+text-align: center;
+font-family: 'Bree Serif', serif;
+color: rgb(49, 63, 103)
+}
+
+
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
